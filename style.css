@@ -253,3 +253,107 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Para dispositivos pequeños */
+@media (max-width: 768px) {
+    /* Barra de navegación */
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .menu nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Ajustar el tamaño de los botones */
+    .auth-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .auth-buttons .btn {
+        margin: 10px 0;
+        padding: 12px 25px;
+    }
+
+    /* Ajuste de imágenes */
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Ajustes en formularios */
+    .auth-form input, .auth-form button {
+        padding: 12px;
+    }
+
+    /* Ajustes para el encabezado */
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Para dispositivos muy pequeños (por debajo de 480px) */
+@media (max-width: 480px) {
+    /* Títulos más pequeños */
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    /* Ajustes de márgenes */
+    .auth-form input, .auth-form button {
+        padding: 10px;
+    }
+
+    .auth-buttons .btn {
+        padding: 10px 20px;
+        margin: 8px 0;
+    }
+
+    /* Ajustes en la imagen de los miembros */
+    .integrante img {
+        width: 100%; /* Las imágenes de los integrantes se adaptan al ancho de la pantalla */
+    }
+
+    /* Ajustar márgenes en el footer */
+    footer {
+        padding: 10px;
+    }
+}
+
+/* Para pantallas grandes, el estilo permanece igual */
+@media (min-width: 1024px) {
+    /* Aquí podrías ajustar el diseño para pantallas más grandes si es necesario */
+    .menu {
+        justify-content: space-between;
+    }
+
+    .auth-buttons {
+        display: flex;
+    }
+}
+
+
