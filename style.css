@@ -1,0 +1,255 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #005a87;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: #005a87;
+}
+
+/* Estilos para los integrantes del equipo */
+.equipo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.integrante {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+}
+
+.integrante img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para las secciones de texto */
+section {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #005a87;
+    color: white;
+}
+
+/* Estilos para las imágenes */
+.imagen img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Pie de página */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+#ideas-negocios {
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centra la sección horizontalmente */
+    align-items: center; /* Centra la sección verticalmente */
+    flex-direction: column;
+}
+
+.ideas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos dentro de la sección */
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+.idea {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+}
+
+.idea img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #005a87;
+}
+
+.menu nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para los botones de inicio de sesión y registro */
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons .btn {
+    background-color: #f1f1f1;
+    color: #005a87;
+    padding: 10px 20px;
+    margin-left: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.auth-buttons .btn:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+
+
+/* Estilos generales para los formularios */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.auth-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.auth-form button {
+    padding: 10px;
+    background-color: #005a87;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.auth-form button:hover {
+    background-color: #003f5f;
+}
+
+.auth-form p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.auth-form a {
+    color: #005a87;
+    text-decoration: none;
+}
+
+.auth-form a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del encabezado y footer */
+header {
+    background-color: #005a87;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
